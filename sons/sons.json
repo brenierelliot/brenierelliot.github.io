@@ -1,0 +1,232 @@
+{
+  "lisez-moi": [
+    "Tous les sons enregistrés du jeu sont dans ce dossier (public/sons), et ce fichier dit lequel joue à quel moment.",
+    "Échanger un fichier : npm run sons -- echanger <son> <nouveau-fichier>   (copie le fichier ici, met à jour ce fichier, règle le volume).",
+    "Le changement est pris en compte au rechargement de la page : rien à reconstruire, rien à redémarrer.",
+    "« volume » : réglé à la mesure (npm run sons -- mesurer) pour que tous les sons se valent.",
+    "Les versions « libres » fabriquées par le jeu ont été retirées le 01/10/2026 à la demande de l'éditeur (il garde ses sons) : elles sont rangées dans archive/sons-libres/."
+  ],
+  "version": "original",
+  "sons": {
+    "rire": {
+      "moment": "Son de vol « Rire moqueur » (quand tu voles ; ta victime l’entend aussi)",
+      "objets": [
+        "stealsnd:laugh"
+      ],
+      "original": {
+        "fichier": "rire.wav",
+        "volume": 0.18,
+        "droits": "Extrait fourni par l'éditeur, auteur non identifié : NON libre"
+      }
+    },
+    "enrique": {
+      "moment": "Quand tu voles (son de vol « Enrique ») et quand on te vole (alerte « Enrique », donnée avec) ; ta victime l’entend aussi",
+      "objets": [
+        "stealsnd:enrique"
+      ],
+      "original": {
+        "fichier": "enrique.wav",
+        "volume": 0.42,
+        "droits": "Son mème (Short YouTube « Enrique Sound Effect ») : NON libre"
+      }
+    },
+    "boom": {
+      "moment": "Quand tu voles (son de vol « Boom God Damn ») ; ta victime l’entend aussi",
+      "objets": [
+        "stealsnd:boom"
+      ],
+      "original": {
+        "fichier": "boom.mp3",
+        "volume": 0.77,
+        "droits": "Son mème « Boom God damn » : NON libre"
+      }
+    },
+    "shutup": {
+      "moment": "Quand tu voles (son de vol « Shut Your Mouth ») ; ta victime l’entend aussi",
+      "objets": [
+        "stealsnd:shutup"
+      ],
+      "original": {
+        "fichier": "shutup.mp3",
+        "volume": 0.37,
+        "droits": "Son mème « Shut Your F*cking Mouth » : NON libre"
+      }
+    },
+    "sinking-sahur": {
+      "moment": "Musique de fond « Sinking Sahur », en boucle",
+      "objets": [
+        "music:sahur"
+      ],
+      "original": {
+        "fichier": "sinking-sahur.mp3",
+        "volume": 0.45,
+        "droits": "Morceau « Sinking Sahur (Sad Guitar Version) » : NON libre"
+      }
+    },
+    "hot-milk": {
+      "moment": "Musique de fond « Hot Milk », en boucle",
+      "objets": [
+        "music:hotmilk"
+      ],
+      "original": {
+        "fichier": "hot-milk.mp3",
+        "volume": 0.24,
+        "droits": "Snail's House, « Hot Milk » (Bass Boosted) : NON libre"
+      }
+    },
+    "biban": {
+      "moment": "Musique de fond « BIBAN », en boucle",
+      "objets": [
+        "music:biban"
+      ],
+      "original": {
+        "fichier": "biban.mp3",
+        "volume": 0.4,
+        "droits": "Jeanfils, « BIBAN » (clip officiel) : NON libre"
+      }
+    },
+    "gut-genug": {
+      "moment": "Musique de fond « Gut Genug », en boucle",
+      "objets": [
+        "music:gutgenug"
+      ],
+      "original": {
+        "fichier": "gut-genug.mp3",
+        "volume": 0.25,
+        "droits": "Kitschkrieg, « Gut Genug » (Slowed & Reverb) : NON libre"
+      }
+    },
+    "freestyle": {
+      "moment": "Musique de fond « Freestyle », en boucle",
+      "objets": [
+        "music:freestyle"
+      ],
+      "original": {
+        "fichier": "freestyle.mp3",
+        "volume": 0.55,
+        "droits": "Freestyle rap trouvé en ligne (fourni par le créateur du jeu) : droits à vérifier"
+      }
+    },
+    "getout": {
+      "moment": "Quand tu voles (son de vol « Get Out ») ; ta victime l’entend aussi",
+      "objets": [
+        "stealsnd:getout"
+      ],
+      "original": {
+        "fichier": "getout.mp3",
+        "volume": 0.4,
+        "droits": "Son mème « GET OUT » (fourni par le créateur du jeu) : droits à vérifier"
+      }
+    },
+    "hahanice": {
+      "moment": "Quand tu voles (son de vol « Haha Nice ») ; ta victime l’entend aussi",
+      "objets": [
+        "stealsnd:hahanice"
+      ],
+      "original": {
+        "fichier": "hahanice.mp3",
+        "volume": 0.4,
+        "droits": "Son mème TikTok « Haha Nice » (fourni par le créateur du jeu) : droits à vérifier"
+      }
+    }
+  },
+  "synthetises": {
+    "lisez-moi": "Sons fabriqués par le code à la volée : déjà libres. Pour en remplacer un par un fichier, mettre son nom dans « fichier » (et un « volume »).",
+    "clic": {
+      "moment": "Toucher un bouton ou un onglet (selon le thème « Sons d'interface »)",
+      "fichier": null
+    },
+    "collecte": {
+      "moment": "Collecter un coffre",
+      "fichier": null
+    },
+    "vol": {
+      "moment": "Voler un site, avec le son « Clac » (offert à tous)",
+      "fichier": null
+    },
+    "refus": {
+      "moment": "Action impossible (pas assez d'octets, recharge…)",
+      "fichier": null
+    },
+    "frappe": {
+      "moment": "Console de piratage qui s'écrit",
+      "fichier": null
+    },
+    "pack-tremble": {
+      "moment": "Un pack qui tremble avant de s'ouvrir",
+      "fichier": null
+    },
+    "pack-dechire": {
+      "moment": "Un pack qui se déchire",
+      "fichier": null
+    },
+    "carte": {
+      "moment": "Une carte qui se retourne (plus ou moins fort selon la rareté)",
+      "fichier": null
+    },
+    "effet-vol": {
+      "moment": "Couche sonore des effets de vol rares, épiques et légendaires",
+      "fichier": null
+    },
+    "alerte": {
+      "moment": "Alertes synthétisées quand on te vole (sirène, réveil, vitre, trombone, orgue)",
+      "fichier": null
+    },
+    "intro_power_click": {
+      "moment": "Intro : appui sur le bouton power (clic mécanique)",
+      "fichier": null
+    },
+    "intro_fan_hum": {
+      "moment": "Intro : ronronnement du ventilateur du PC (en boucle)",
+      "fichier": null
+    },
+    "intro_rain": {
+      "moment": "Intro : pluie légère sur la fenêtre (en boucle)",
+      "fichier": null
+    },
+    "intro_crt_on": {
+      "moment": "Intro : l'écran cathodique s'allume (sifflement puis « bzzt »)",
+      "fichier": null
+    },
+    "intro_typing": {
+      "moment": "Intro : touches du clavier pendant que le terminal s'écrit",
+      "fichier": null
+    },
+    "intro_access_denied": {
+      "moment": "Intro : « ACCÈS REFUSÉ » dans le terminal",
+      "fichier": null
+    },
+    "intro_glitch_burst": {
+      "moment": "Intro : rafale de parasites (transition et glitchs du titre)",
+      "fichier": null
+    },
+    "intro_bass_drop": {
+      "moment": "Intro : grosse basse quand le titre STEAL INTERNET apparaît",
+      "fichier": null
+    },
+    "intro_button_beep": {
+      "moment": "Intro : survol ou appui sur un bouton du menu",
+      "fichier": null
+    },
+    "intro_access_granted": {
+      "moment": "Intro : « ACCÈS AUTORISÉ » après l'appui sur JOUER",
+      "fichier": null
+    },
+    "intro_ambient": {
+      "moment": "Intro : nappe d'ambiance sombre sous le titre (en boucle)",
+      "fichier": null
+    },
+    "intro_glitch_small": {
+      "moment": "Intro : petit craquement des micro-glitchs (titre, bouton JOUER)",
+      "fichier": null
+    },
+    "intro_data_blip": {
+      "moment": "Intro : bip de données (paquets sur le globe, lettres qui grésillent)",
+      "fichier": null
+    },
+    "intro_steal_zap": {
+      "moment": "Intro : un vol traverse le globe (arc rouge)",
+      "fichier": null
+    }
+  }
+}
