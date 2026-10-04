@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steal Internet · Internet est une ville, vole-la</title>
+<meta name="description" content="Jeu gratuit dans le navigateur : 1 000 vrais sites web deviennent des immeubles en 3D. Achète-les, encaisse leurs octets et vole ceux des autres joueurs aux enchères.">
+<meta name="theme-color" content="#151A2C">
+<link rel="icon" href="/test/icons/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://brenierelliot.github.io/decouvrir.html">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Steal Internet">
+<meta property="og:url" content="https://brenierelliot.github.io/decouvrir.html">
+<meta property="og:title" content="Steal Internet · Internet est une ville, vole-la">
+<meta property="og:description" content="1 000 vrais sites web en immeubles 3D. Achète, encaisse, vole aux enchères. Gratuit, sur téléphone et ordinateur.">
+<meta property="og:image" content="https://brenierelliot.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Steal Internet : la ville de nuit, avec les logos de Google, YouTube, Netflix, TikTok et Wikipédia.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Steal Internet · Internet est une ville, vole-la">
+<meta name="twitter:description" content="1 000 vrais sites web en immeubles 3D. Achète, encaisse, vole aux enchères. Gratuit, dans le navigateur.">
+<meta name="twitter:image" content="https://brenierelliot.github.io/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="preload" as="image" href="/test/decouvrir/ville-nuit-ordi.webp" media="(min-width: 641px)">
+<link rel="preload" as="image" href="/test/decouvrir/ville-nuit-tel.webp" media="(max-width: 640px)">
+
+<style>
+  :root {
+    --bg: #151A2C;
+    --bg-2: #1B2138;
+    --bg-3: #232A46;
+    --line: rgba(255, 255, 255, 0.09);
+    --text: #EEF0F7;
+    --muted: #A9B0C8;
+    --gold: #FFC94A;
+    --gold-ink: #2A1E00;
+    --cyan: #34F0FF;
+    --pink: #FF4FA3;
+    --green: #6DFF9E;
+    --r: 8px;
+    --wrap: 1180px;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 400 17px/1.6 "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+    overflow-x: clip;
+  }
+  img { display: block; max-width: 100%; height: auto; }
+  a { color: inherit; }
+  h1, h2, h3 { font-family: Fredoka, "Source Sans 3", sans-serif; font-weight: 600; line-height: 1.12; margin: 0; letter-spacing: -0.01em; }
+  p { margin: 0; }
+  .wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 20px; }
+  .skip { position: absolute; left: -9999px; }
+  .skip:focus { left: 16px; top: 16px; z-index: 10; background: var(--gold); color: var(--gold-ink); padding: 8px 12px; border-radius: var(--r); }
+
+  /* barre du haut */
+  .top { position: sticky; top: 0; z-index: 5; background: rgba(21, 26, 44, 0.88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 19px; letter-spacing: 0.02em; white-space: nowrap; }
+  .brand img { width: 28px; height: 28px; border-radius: 6px; }
+
+  /* boutons */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: var(--r); font: 600 18px/1 Fredoka, sans-serif; letter-spacing: 0.01em; text-decoration: none; white-space: nowrap; transition: transform 0.15s, background-color 0.15s; }
+  .btn svg { width: 20px; height: 20px; flex: none; }
+  .btn-gold { background: var(--gold); color: var(--gold-ink); box-shadow: 0 4px 0 #B8860B; }
+  .btn-gold:hover { background: #FFD46E; transform: translateY(-1px); }
+  .btn-gold:active { transform: translateY(2px); box-shadow: 0 2px 0 #B8860B; }
+  .btn-sm { min-height: 40px; padding: 0 16px; font-size: 16px; box-shadow: 0 3px 0 #B8860B; }
+  .btn:focus-visible, .faq summary:focus-visible, a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+
+  /* accroche */
+  .hero { padding: 64px 0 0; }
+  .hero-text { max-width: 760px; }
+  .kicker { display: inline-block; font: 600 13px/1 "Source Sans 3", sans-serif; text-transform: uppercase; letter-spacing: 0.12em; color: var(--green); margin-bottom: 18px; }
+  .hero h1 { font-size: clamp(38px, 6.4vw, 72px); font-weight: 700; }
+  .hero h1 em { font-style: normal; color: var(--gold); }
+  .lead { margin-top: 20px; font-size: clamp(18px, 2vw, 21px); color: var(--muted); max-width: 640px; }
+  .lead b { color: var(--text); font-weight: 600; }
+  .cta-row { margin-top: 30px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; }
+  .cta-note { color: var(--muted); font-size: 15px; }
+  .hero-shot { margin-top: 48px; position: relative; }
+  .hero-shot img { width: 100%; border-radius: 10px 10px 0 0; border: 1px solid var(--line); border-bottom: 0; }
+
+  /* chiffres */
+  .facts { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--bg-2); }
+  .facts ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); }
+  .facts li { padding: 26px 20px; border-left: 1px solid var(--line); }
+  .facts li:first-child { border-left: 0; }
+  .facts b { display: block; font: 600 34px/1 Fredoka, sans-serif; color: var(--gold); }
+  .facts span { display: block; margin-top: 8px; color: var(--muted); font-size: 15px; line-height: 1.4; }
+
+  /* sections */
+  .feature { padding: 104px 0 0; }
+  .feature .wrap { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 64px; align-items: center; }
+  .feature.flip .wrap { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+  .feature.flip .copy { order: 2; }
+  .step { display: flex; align-items: center; gap: 10px; font: 600 14px/1 "Source Sans 3", sans-serif; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent, var(--gold)); margin-bottom: 16px; }
+  .step svg { width: 18px; height: 18px; }
+  .feature h2 { font-size: clamp(30px, 3.6vw, 42px); }
+  .feature .copy > p { margin-top: 18px; color: var(--muted); }
+  .feature .copy > p b { color: var(--text); font-weight: 600; }
+  .points { list-style: none; margin: 24px 0 0; padding: 0; display: grid; gap: 12px; }
+  .points li { position: relative; padding-left: 28px; }
+  .points li::before { content: ""; position: absolute; left: 2px; top: 0.62em; width: 10px; height: 10px; border-radius: 2px; background: var(--accent, var(--gold)); transform: rotate(45deg); }
+  .points b { font-weight: 600; }
+  .steps { list-style: none; counter-reset: s; margin: 24px 0 0; padding: 0; display: grid; gap: 0; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg-2); }
+  .steps li { counter-increment: s; display: grid; grid-template-columns: 34px 1fr; gap: 12px; padding: 14px 16px; border-top: 1px solid var(--line); }
+  .steps li:first-child { border-top: 0; }
+  .steps li::before { content: counter(s); display: grid; place-items: center; width: 30px; height: 30px; border-radius: 6px; background: rgba(255, 79, 163, 0.14); color: var(--pink); font: 600 16px/1 Fredoka, sans-serif; }
+  .steps b { font-weight: 600; }
+
+  /* visuels : capture ordinateur + téléphone */
+  .media { position: relative; padding-bottom: 64px; padding-right: 64px; }
+  .shot { border-radius: 10px; border: 1px solid var(--line); box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6); background: var(--bg-3); }
+  .phone { position: absolute; right: 0; bottom: 0; width: 25%; max-width: 200px; border-radius: 22px; border: 6px solid #0C0F1C; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 30px 50px -10px rgba(0, 0, 0, 0.7); background: #0C0F1C; overflow: hidden; }
+  .phone img { border-radius: 16px; }
+  .flip .media { padding-right: 0; padding-left: 64px; }
+  .flip .phone { right: auto; left: 0; }
+  .flip .media figcaption { padding-right: 0; padding-left: 28%; }
+  figcaption { margin-top: 14px; color: var(--muted); font-size: 14px; }
+  .media figcaption { padding-right: 28%; }
+
+  /* fin */
+  .play { padding: 112px 0 0; }
+  .play-box { border: 1px solid rgba(255, 201, 74, 0.35); border-radius: 12px; background: var(--bg-2); padding: 48px; display: grid; grid-template-columns: 1fr auto; gap: 24px 40px; align-items: center; }
+  .play-box h2 { font-size: clamp(28px, 3.4vw, 40px); }
+  .play-box p { margin-top: 12px; color: var(--muted); }
+
+  .faq { padding: 104px 0 0; }
+  .faq h2 { font-size: clamp(28px, 3.4vw, 40px); margin-bottom: 28px; }
+  .faq-list { max-width: 820px; border-top: 1px solid var(--line); }
+  .faq details { border-bottom: 1px solid var(--line); }
+  .faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 20px 0; font: 600 20px/1.3 Fredoka, sans-serif; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary svg { width: 20px; height: 20px; flex: none; color: var(--gold); transition: transform 0.2s; }
+  .faq details[open] summary svg { transform: rotate(45deg); }
+  .faq details p { padding: 0 0 22px; color: var(--muted); max-width: 680px; }
+
+  footer { margin-top: 104px; border-top: 1px solid var(--line); background: #11152A; }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; padding-top: 28px; padding-bottom: 28px; color: var(--muted); font-size: 15px; }
+  footer nav { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+  footer a { text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(255, 255, 255, 0.3); }
+  footer a:hover { color: var(--text); }
+
+  @media (max-width: 960px) {
+    .feature .wrap { grid-template-columns: 1fr; gap: 36px; }
+    .feature.flip .wrap { grid-template-columns: 1fr; }
+    .feature.flip .copy { order: 0; }
+    .facts ul { grid-template-columns: repeat(2, 1fr); }
+    .facts li:nth-child(3) { border-left: 0; }
+    .facts li:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .play-box { grid-template-columns: 1fr; padding: 32px; }
+  }
+  @media (max-width: 640px) {
+    body { font-size: 16px; }
+    .wrap { padding: 0 16px; }
+    .top .btn-sm { padding: 0 12px; font-size: 15px; }
+    .hero { padding-top: 40px; }
+    .cta-row .btn { width: 100%; }
+    .hero-shot { margin-top: 36px; display: flex; justify-content: center; }
+    .hero-shot img { width: min(100%, 340px); border-radius: 22px 22px 0 0; border: 6px solid #0C0F1C; border-bottom: 0; }
+    .facts li { padding: 20px 14px; }
+    .facts b { font-size: 28px; }
+    .feature { padding-top: 72px; }
+    .media { padding-right: 36px; padding-bottom: 56px; }
+    .phone { width: 30%; border-width: 4px; border-radius: 16px; }
+    .phone img { border-radius: 12px; }
+    .media figcaption { padding-right: 32%; }
+    .flip .media { padding-right: 0; padding-left: 36px; }
+    .flip .media figcaption { padding-right: 0; padding-left: 32%; }
+    .play { padding-top: 80px; }
+    .play-box { padding: 24px 20px; }
+    .play-box .btn { width: 100%; }
+    .faq { padding-top: 80px; }
+    .faq summary { font-size: 18px; }
+    footer { margin-top: 80px; }
+  }
+  @media (max-width: 380px) {
+    .brand span { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/test/decouvrir.html"><img src="/test/icons/favicon.svg" alt="" width="28" height="28"><span>Steal Internet</span></a>
+    <a class="btn btn-gold btn-sm" href="/?solo=1">Jouer</a>
+  </div>
+</header>
+
+<main id="contenu">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="kicker">Jeu gratuit, dans le navigateur</span>
+        <h1>Internet est une ville. <em>Vole-la.</em></h1>
+        <p class="lead">Chaque vrai site web, du petit blog jusqu’à Google, est un immeuble en 3D. <b>Achète-le, encaisse ses octets, puis vole ceux des autres joueurs aux enchères.</b></p>
+        <div class="cta-row">
+          <a class="btn btn-gold" href="/?solo=1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+            Jouer gratuitement
+          </a>
+          <span class="cta-note">Rien à installer. Téléphone ou ordinateur.</span>
+        </div>
+      </div>
+      <div class="hero-shot">
+        <picture>
+          <source media="(max-width: 640px)" srcset="/test/decouvrir/ville-nuit-tel.webp" width="780" height="1688">
+          <img src="/test/decouvrir/ville-nuit-ordi.webp" width="1440" height="900" fetchpriority="high" decoding="async" alt="La ville de nuit dans le jeu : des tours éclairées avec les logos de Wikipédia, Yahoo, ResearchGate et d’autres sites, et les noms des quartiers Santé, Mode et Savoir.">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <section class="facts" aria-label="Le jeu en chiffres">
+    <div class="wrap">
+      <ul>
+        <li><b>1&nbsp;000</b><span>vrais sites, vérifiés dans le classement mondial Tranco</span></li>
+        <li><b>24</b><span>quartiers : Vidéo, IA, Jeux, Musique, Shopping…</span></li>
+        <li><b>197</b><span>célébrités à collectionner</span></li>
+        <li><b>7&nbsp;jours</b><span>par saison, puis tout le monde repart à zéro</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="feature" style="--accent: var(--gold)" aria-labelledby="t-acheter">
+    <div class="wrap">
+      <div class="copy">
+        <p class="step"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4M10 10h4M10 14h4M10 18h4"/></svg>Acheter</p>
+        <h2 id="t-acheter">Le prix d’un site, c’est sa vraie popularité</h2>
+        <p>Google coûte <b>150&nbsp;000&nbsp;octets</b>, Facebook 71&nbsp;000, les petits sites quelques dizaines. Tu commences avec 150&nbsp;octets : à toi de choisir par où entrer.</p>
+        <ul class="points">
+          <li>Chaque site remplit son <b>coffre</b> chaque minute, jusqu’à 2&nbsp;h de revenus. Pense à collecter.</li>
+          <li>Possède tout un pâté de maisons et ses revenus montent de <b>+12&nbsp;% à +35&nbsp;%</b>.</li>
+          <li>Le bouton <b>Diviser en quartiers</b> éclate la ville en 24 îlots colorés pour repérer tes cibles.</li>
+        </ul>
+      </div>
+      <figure class="media" style="margin:0">
+        <img class="shot" src="/test/decouvrir/ville-jour-ordi.webp" width="1440" height="900" loading="lazy" decoding="async" alt="La ville de jour vue vers l’horizon : des centaines d’immeubles avec les logos de leurs sites, et les noms des quartiers Tech et outils, Actu, Voyage, Culture.">
+        <div class="phone"><img src="/test/decouvrir/quartiers-tel.webp" width="780" height="1688" loading="lazy" decoding="async" alt="La vue Diviser en quartiers sur téléphone : la ville éclatée en îlots, chacun avec son nom en néon."></div>
+        <figcaption>La ville de jour, et la vue « Diviser en quartiers » sur téléphone.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="feature flip" style="--accent: var(--pink)" aria-labelledby="t-voler">
+    <div class="wrap">
+      <div class="copy">
+        <p class="step"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="10" x2="14" y1="2" y2="2"/><line x1="12" x2="15" y1="14" y2="11"/><circle cx="12" cy="14" r="8"/></svg>Voler</p>
+        <h2 id="t-voler">Un site a déjà un propriétaire ? Vole-le.</h2>
+        <ol class="steps">
+          <li><span>Touche l’immeuble puis <b>Voler</b> : son prix est bloqué et un chrono démarre, de 30&nbsp;secondes à 10&nbsp;minutes selon la taille du site.</span></li>
+          <li><span>Les autres peuvent <b>surenchérir</b> (+10&nbsp;% minimum) et le propriétaire peut <b>défendre</b>.</span></li>
+          <li><span>À la fin du chrono, la plus grosse mise gagne. Le prix du site monte alors de <b>+50&nbsp;%</b>.</span></li>
+          <li><span>La victime récupère <b>70&nbsp;%</b> du prix, et voit la carte du voleur qui danse devant elle. De quoi vouloir se venger.</span></li>
+        </ol>
+      </div>
+      <figure class="media" style="margin:0">
+        <img class="shot" src="/test/decouvrir/fiche-ordi.webp" width="1440" height="900" loading="lazy" decoding="async" alt="La fiche de Twitch, tenu par le joueur Kevin : prix actuel 3&nbsp;700&nbsp;octets, revenu, coffre, et le gros bouton Voler.">
+        <div class="phone"><img src="/test/decouvrir/voleur-tel.webp" width="780" height="1688" loading="lazy" decoding="async" alt="La carte du voleur sur téléphone : Kevin a volé un site, son personnage 3D danse, et la victime récupère 70&nbsp;% du prix."></div>
+        <figcaption>La fiche d’un site avec le bouton Voler, et la carte du voleur côté victime.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="feature" style="--accent: var(--cyan)" aria-labelledby="t-celebs">
+    <div class="wrap">
+      <div class="copy">
+        <p class="step"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>Collectionner</p>
+        <h2 id="t-celebs">197 célébrités qui encaissent pour toi</h2>
+        <p>Stars de la musique, du sport, YouTubeurs, streamers, chefs, scientifiques : <b>89 communes, 65 rares, 34 épiques et 9 légendaires</b>.</p>
+        <ul class="points">
+          <li>Un pack s’ouvre en trois indices (quartier, profil, notoriété) avant la révélation.</li>
+          <li>Assise à un bureau, une célébrité vide seule une part des coffres de son quartier : de <b>10&nbsp;%</b> (commune) à <b>25&nbsp;%</b> (légendaire).</li>
+          <li>Les autres se reposent dans un appartement que tu agrandis et meubles toi-même.</li>
+        </ul>
+      </div>
+      <figure class="media" style="margin:0">
+        <img class="shot" src="/test/decouvrir/bureau-ordi.webp" width="1440" height="900" loading="lazy" decoding="async" alt="La salle de repos du bureau en 3D : un appartement meublé où les célébrités sont assises et se promènent.">
+        <div class="phone"><img src="/test/decouvrir/pack-tel.webp" width="780" height="1688" loading="lazy" decoding="async" alt="Un pack Célébrités légendaire doré, prêt à être déchiré, sur téléphone."></div>
+        <figcaption>La salle de repos de ton bureau, et un pack légendaire avant l’ouverture.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="feature flip" style="--accent: var(--green)" aria-labelledby="t-crew">
+    <div class="wrap">
+      <div class="copy">
+        <p class="step"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Crews et saisons</p>
+        <h2 id="t-crew">Joue en crew, recommence chaque semaine</h2>
+        <p>Une saison dure <b>7&nbsp;jours</b>. À la fin, tout le monde repart avec 150&nbsp;octets : le n°1 de la semaine dernière n’a aucune avance.</p>
+        <ul class="points">
+          <li>Dès le rang 5, crée ton <b>crew</b> : un nom, un tag, un emblème, un chat et un QG en 3D.</li>
+          <li>On ne vole pas un coéquipier, et un coéquipier peut miser pour te défendre.</li>
+          <li>Dans ta chambre de hacker, le <b>Processeur</b> raccourcit tes vols, le <b>Pare-feu</b> te protège et le <b>Scan</b> montre les meilleures cibles.</li>
+        </ul>
+      </div>
+      <figure class="media" style="margin:0">
+        <img class="shot" src="/test/decouvrir/cyber-ordi.webp" width="1440" height="900" loading="lazy" decoding="async" alt="La chambre de hacker en 3D, éclairée de néons roses, avec l’ordinateur qui ouvre HACK·OS.">
+        <div class="phone"><img src="/test/decouvrir/cyber-tel.webp" width="780" height="1688" loading="lazy" decoding="async" alt="La même chambre de hacker sur téléphone, avec le choix des Cyberespaces en bas."></div>
+        <figcaption>La chambre Cyber, sur ordinateur et sur téléphone.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="play" aria-labelledby="t-play">
+    <div class="wrap">
+      <div class="play-box">
+        <div>
+          <h2 id="t-play">Ta première cible t’attend</h2>
+          <p>Une partie démarre en quelques secondes, avec 150&nbsp;octets en poche et un tutoriel pour ton premier vol.</p>
+        </div>
+        <a class="btn btn-gold" href="/?solo=1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+          Jouer gratuitement
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <h2 id="t-faq">Questions fréquentes</h2>
+      <div class="faq-list">
+        <details>
+          <summary>C’est vraiment gratuit ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></summary>
+          <p>Oui. Les packs et la roue s’achètent avec les octets gagnés en jouant, jamais avec de l’argent réel. Personne ne peut payer pour gagner.</p>
+        </details>
+        <details>
+          <summary>Ça marche sur téléphone ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></summary>
+          <p>Oui, dans le navigateur du téléphone comme sur ordinateur. Il n’y a rien à télécharger ni à installer.</p>
+        </details>
+        <details>
+          <summary>Faut-il créer un compte ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></summary>
+          <p>Non. Tu choisis ton personnage et tu joues. Ta partie est gardée dans ton navigateur.</p>
+        </details>
+        <details>
+          <summary>Contre qui je joue ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg></summary>
+          <p>En solo, contre quatre bots (Kevin, Lina, Max et Nina) qui achètent, volent et collectionnent comme un vrai joueur. En ligne, contre les autres joueurs, et les bots mettent de l’ambiance quand il y a peu de monde.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Steal Internet. Les logos montrent les sites à conquérir : ces sites ne sont pas partenaires du jeu.</span>
+    <nav aria-label="Liens">
+      <a href="/?solo=1">Jouer</a>
+      <a href="/test/confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+</footer>
+<script>
+  // lien d'invitation (?ref=CODE) : on garde le code de l'ami pour la création du compte,
+  // et on le passe aux boutons « Jouer »
+  (function () {
+    var code = (new URLSearchParams(location.search).get('ref') || '').trim().toUpperCase();
+    if (!/^[A-HJ-NP-Z2-9]{6}$/.test(code)) return;
+    try { localStorage.setItem('vole-internet-test:ref', code); } catch (e) {}
+    document.querySelectorAll('a[href^="/?"]').forEach(function (a) {
+      var u = new URL(a.getAttribute('href'), location.origin);
+      u.searchParams.set('ref', code);
+      a.setAttribute('href', u.pathname + u.search);
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,1775 @@
+{
+  "ronaldo": {
+    "id": "ronaldo",
+    "name": "Cristiano Ronaldo",
+    "title": "Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+  },
+  "messi": {
+    "id": "messi",
+    "name": "Lionel Messi",
+    "title": "Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+  },
+  "beyonce": {
+    "id": "beyonce",
+    "name": "Beyoncé",
+    "title": "Beyoncé_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg",
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
+  },
+  "taylor-swift": {
+    "id": "taylor-swift",
+    "name": "Taylor Swift",
+    "title": "Taylor_Swift_at_the_Golden_Globes_2024_(Enhanced,_cropped)_2.jpg",
+    "author": "iHeartRadioCA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_Golden_Globes_2024_(Enhanced,_cropped)_2.jpg"
+  },
+  "elon-musk": {
+    "id": "elon-musk",
+    "name": "Elon Musk",
+    "title": "The_White_House_-_54409525537_(cropped)_(cropped).jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_White_House_-_54409525537_(cropped)_(cropped).jpg"
+  },
+  "mrbeast": {
+    "id": "mrbeast",
+    "name": "MrBeast",
+    "title": "MrBeast_in_2026_(cropped_4).png",
+    "author": "Tyren Redd",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png"
+  },
+  "mbappe": {
+    "id": "mbappe",
+    "name": "Kylian Mbappé",
+    "title": "Kylian_Mbappe_-_France_v_Norway_-_26_June_2026_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_-_France_v_Norway_-_26_June_2026_(cropped).jpg"
+  },
+  "lebron": {
+    "id": "lebron",
+    "name": "LeBron James",
+    "title": "Lebron_James_2022small.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lebron_James_2022small.jpg"
+  },
+  "rihanna": {
+    "id": "rihanna",
+    "name": "Rihanna",
+    "title": "Rihanna_Fenty_2018.png",
+    "author": "SIGMA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png"
+  },
+  "billie-eilish": {
+    "id": "billie-eilish",
+    "name": "Billie Eilish",
+    "title": "BillieEilishO2140725-39_-_54665577407_(cropped).jpg",
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg"
+  },
+  "zuckerberg": {
+    "id": "zuckerberg",
+    "name": "Mark Zuckerberg",
+    "title": "F20250904AH-2915_(54778607243)_(cropped).jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:F20250904AH-2915_(54778607243)_(cropped).jpg"
+  },
+  "bill-gates": {
+    "id": "bill-gates",
+    "name": "Bill Gates",
+    "title": "Bill_Gates_-_Nov._8,_2019.jpg",
+    "author": "Senator Chris Coons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_-_Nov._8,_2019.jpg"
+  },
+  "khaby-lame": {
+    "id": "khaby-lame",
+    "name": "Khaby Lame",
+    "title": "KhabyLame.jpg",
+    "author": "Gilzetbase",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KhabyLame.jpg"
+  },
+  "squeezie": {
+    "id": "squeezie",
+    "name": "Squeezie",
+    "title": "Squeezie_Zack_en_Roue_Libre_2025.png",
+    "author": "Zack Nani",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squeezie_Zack_en_Roue_Libre_2025.png"
+  },
+  "kim-kardashian": {
+    "id": "kim-kardashian",
+    "name": "Kim Kardashian",
+    "title": "President_Trump_Meets_with_Sentencing_Commutation_Recipients_(49624188912)_(cropped).jpg",
+    "author": "The White House from Washington, DC",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:President_Trump_Meets_with_Sentencing_Commutation_Recipients_(49624188912)_(cropped).jpg"
+  },
+  "dicaprio": {
+    "id": "dicaprio",
+    "name": "Leonardo DiCaprio",
+    "title": "LeoPTABFI191125-28_(cropped).jpg",
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
+  },
+  "gordon-ramsay": {
+    "id": "gordon-ramsay",
+    "name": "Gordon Ramsay",
+    "title": "Gordon_Ramsay_colour_Allan_Warren.jpg",
+    "author": "Allan warren",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_colour_Allan_Warren.jpg"
+  },
+  "hamilton": {
+    "id": "hamilton",
+    "name": "Lewis Hamilton",
+    "title": "Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_(54566928382)_(cropped).jpg",
+    "author": "Picture by Lauren Hurley / No 10 Downing Street",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_(54566928382)_(cropped).jpg"
+  },
+  "oprah": {
+    "id": "oprah",
+    "name": "Oprah Winfrey",
+    "title": "Public_Swearing_In_(52644838925)_(cropped).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Public_Swearing_In_(52644838925)_(cropped).jpg"
+  },
+  "warren-buffett": {
+    "id": "warren-buffett",
+    "name": "Warren Buffett",
+    "title": "Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg",
+    "author": "USA International Trade Administration",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg"
+  },
+  "neymar": {
+    "id": "neymar",
+    "name": "Neymar",
+    "title": "Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+  },
+  "gims": {
+    "id": "gims",
+    "name": "Gims",
+    "title": "NDLE2025Gims_1.jpg",
+    "author": "Selbymay",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NDLE2025Gims_1.jpg"
+  },
+  "aya-nakamura": {
+    "id": "aya-nakamura",
+    "name": "Aya Nakamura",
+    "title": "Aya_Nakamura_IMG_4756_(cropped).jpg",
+    "author": "Mathis.aclr",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aya_Nakamura_IMG_4756_(cropped).jpg"
+  },
+  "inoxtag": {
+    "id": "inoxtag",
+    "name": "Inoxtag",
+    "title": "Inoxtag-2023.jpg",
+    "author": "ZACK",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inoxtag-2023.jpg"
+  },
+  "gotaga": {
+    "id": "gotaga",
+    "name": "Gotaga",
+    "title": "Gotaga_2026.jpg",
+    "author": "Zack Nani",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gotaga_2026.jpg"
+  },
+  "charli-damelio": {
+    "id": "charli-damelio",
+    "name": "Charli D’Amelio",
+    "title": "Charli_D'Amelio_at_KCAs_2023_02.jpg",
+    "author": "NickRewind",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charli_D%27Amelio_at_KCAs_2023_02.jpg"
+  },
+  "sam-altman": {
+    "id": "sam-altman",
+    "name": "Sam Altman",
+    "title": "Sam_Altman_speaking_at_TED_(cropped).jpg",
+    "author": "Steve Jurvetson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sam_Altman_speaking_at_TED_(cropped).jpg"
+  },
+  "bernard-arnault": {
+    "id": "bernard-arnault",
+    "name": "Bernard Arnault",
+    "title": "Bernard_Arnault_(3)_-_2017_(cropped).jpg",
+    "author": "Jérémy Barande",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bernard_Arnault_(3)_-_2017_(cropped).jpg"
+  },
+  "cyril-lignac": {
+    "id": "cyril-lignac",
+    "name": "Cyril Lignac",
+    "title": "Salon_chocolat_Paris_2017_Cyril_Lignac_2949c.jpg",
+    "author": "Sukkoria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salon_chocolat_Paris_2017_Cyril_Lignac_2949c.jpg"
+  },
+  "zendaya": {
+    "id": "zendaya",
+    "name": "Zendaya",
+    "title": "Zendaya-byPhilipRomano.jpg",
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg"
+  },
+  "greta-thunberg": {
+    "id": "greta-thunberg",
+    "name": "Greta Thunberg",
+    "title": "Greta_Thunberg_in_November_in_Stockholm_(cropped)(2).jpg",
+    "author": "Kushal Das",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greta_Thunberg_in_November_in_Stockholm_(cropped)(2).jpg"
+  },
+  "neil-tyson": {
+    "id": "neil-tyson",
+    "name": "Neil deGrasse Tyson",
+    "title": "Neil_DeGrasse_Tyson_(2023).jpg",
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neil_DeGrasse_Tyson_(2023).jpg"
+  },
+  "lena-situations": {
+    "id": "lena-situations",
+    "name": "Léna Situations",
+    "title": "Opening_ceremony_of_the_Deauville_American_Film_Festival_2026_—_Lena_Mahfouf.jpg",
+    "author": "Elyot Boudart",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opening_ceremony_of_the_Deauville_American_Film_Festival_2026_%E2%80%94_Lena_Mahfouf.jpg"
+  },
+  "verstappen": {
+    "id": "verstappen",
+    "name": "Max Verstappen",
+    "title": "Max_Verstappen_at_the_Red_Bull_Fan_Zone_–_Crown_Riverwalk,_Melbourne_(028A7659)_-_cropped.jpg",
+    "author": "Yu Chu Chin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Max_Verstappen_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk,_Melbourne_(028A7659)_-_cropped.jpg"
+  },
+  "mister-v": {
+    "id": "mister-v",
+    "name": "Mister V",
+    "title": "Mister_V_2020_(cropped).jpg",
+    "author": "Damien Raynaud",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mister_V_2020_(cropped).jpg"
+  },
+  "bear-grylls": {
+    "id": "bear-grylls",
+    "name": "Bear Grylls",
+    "title": "Honorary_Colonel_Bear_Grylls_inspects_(cropped).jpg",
+    "author": "Matt Allen",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honorary_Colonel_Bear_Grylls_inspects_(cropped).jpg"
+  },
+  "david-attenborough": {
+    "id": "david-attenborough",
+    "name": "David Attenborough",
+    "title": "David_Attenborough_in_2025.jpg",
+    "author": "https://www.flickr.com/photos/ukgov/",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Attenborough_in_2025.jpg"
+  },
+  "marie-kondo": {
+    "id": "marie-kondo",
+    "name": "Marie Kondo",
+    "title": "Marie_Kondō,_2016_(cropped).jpg",
+    "author": "RISE",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marie_Kond%C5%8D,_2016_(cropped).jpg"
+  },
+  "bill-nye": {
+    "id": "bill-nye",
+    "name": "Bill Nye",
+    "title": "Bill_Nye_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bill_Nye_by_Gage_Skidmore.jpg"
+  },
+  "andrew-huberman": {
+    "id": "andrew-huberman",
+    "name": "Andrew Huberman",
+    "title": "Andrew_D._Huberman,_Ph.D..jpg",
+    "author": "Jamesbrianbounds",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrew_D._Huberman,_Ph.D..jpg"
+  },
+  "pokimane": {
+    "id": "pokimane",
+    "name": "Pokimane",
+    "title": "Pokimane_2019.png",
+    "author": "Hey B*tch! Highlights",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pokimane_2019.png"
+  },
+  "jeff-bezos": {
+    "id": "jeff-bezos",
+    "name": "Jeff Bezos",
+    "title": "Secretary_of_Defense_Ash_Carter_meets_with_Jeff_Bezos,_May_5,_2016_(1)_(cropped).jpg",
+    "author": "DoD photo by Senior Master Sgt. Adrian Cadiz (Released)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Secretary_of_Defense_Ash_Carter_meets_with_Jeff_Bezos,_May_5,_2016_(1)_(cropped).jpg"
+  },
+  "drake": {
+    "id": "drake",
+    "name": "Drake",
+    "title": "Drake_July_2016.jpg",
+    "author": "The Come Up Show",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drake_July_2016.jpg"
+  },
+  "kris-jenner": {
+    "id": "kris-jenner",
+    "name": "Kris Jenner",
+    "title": "Kris_Jenner_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kris_Jenner_by_Gage_Skidmore.jpg"
+  },
+  "ninja": {
+    "id": "ninja",
+    "name": "Ninja",
+    "title": "Krystalogy,_Jess,_Ninja,_and_Typical_Gamer_relaxing_in_the_State_Farm_Gamerhood_(52899874282)_(cropped).jpg",
+    "author": "State Farm",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krystalogy,_Jess,_Ninja,_and_Typical_Gamer_relaxing_in_the_State_Farm_Gamerhood_(52899874282)_(cropped).jpg"
+  },
+  "the-weeknd": {
+    "id": "the-weeknd",
+    "name": "The Weeknd",
+    "title": "The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+    "author": "Brian Ziff",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Weeknd_Portrait_by_Brian_Ziff.jpg"
+  },
+  "usain-bolt": {
+    "id": "usain-bolt",
+    "name": "Usain Bolt",
+    "title": "Usain_Bolt_Rio_100m_final_2016i-cr.jpg",
+    "author": "Fernando Frazão/Agência Brasil",
+    "license": "CC BY 3.0 br",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_Rio_100m_final_2016i-cr.jpg"
+  },
+  "dwayne-johnson": {
+    "id": "dwayne-johnson",
+    "name": "Dwayne Johnson",
+    "title": "Dwayne_Johnson-1809_(cropped).jpg",
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1809_(cropped).jpg"
+  },
+  "ariana-grande": {
+    "id": "ariana-grande",
+    "name": "Ariana Grande",
+    "title": "Ariana_Grande_Eternal_Sunshine_Tour_performing_(cropped).jpg",
+    "author": "Saturnmondays",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ariana_Grande_Eternal_Sunshine_Tour_performing_(cropped).jpg"
+  },
+  "ed-sheeran": {
+    "id": "ed-sheeran",
+    "name": "Ed Sheeran",
+    "title": "Ed_Sheeran..._unfinished.png",
+    "author": "Kevin",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran..._unfinished.png"
+  },
+  "shakira": {
+    "id": "shakira",
+    "name": "Shakira",
+    "title": "Shakira_crooped_SHARIKA_MEDELLIN_13_04_2025.jpg",
+    "author": "J.ébey",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shakira_crooped_SHARIKA_MEDELLIN_13_04_2025.jpg"
+  },
+  "bad-bunny": {
+    "id": "bad-bunny",
+    "name": "Bad Bunny",
+    "title": "Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg",
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg"
+  },
+  "tom-cruise": {
+    "id": "tom-cruise",
+    "name": "Tom Cruise",
+    "title": "Tom_Cruise_at_Saturn_Awards_2026_01.jpg",
+    "author": "Luis Ochea",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Cruise_at_Saturn_Awards_2026_01.jpg"
+  },
+  "jackie-chan": {
+    "id": "jackie-chan",
+    "name": "Jackie Chan",
+    "title": "Jackie_Chan.jpg",
+    "author": "Segolene Liger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg"
+  },
+  "serena-williams": {
+    "id": "serena-williams",
+    "name": "Serena Williams",
+    "title": "Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_(cropped).jpg",
+    "author": "Vbrunophotog",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_(cropped).jpg"
+  },
+  "sundar-pichai": {
+    "id": "sundar-pichai",
+    "name": "Sundar Pichai",
+    "title": "Sundar_Pichai_-_2023_(cropped).jpg",
+    "author": "Photographer: Lukasz Kobus (European Commission)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sundar_Pichai_-_2023_(cropped).jpg"
+  },
+  "benzema": {
+    "id": "benzema",
+    "name": "Karim Benzema",
+    "title": "Karim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg",
+    "author": "Real Madrid",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karim_Benzema_wearing_Real_Madrid_home_kit_2021-2022.jpg"
+  },
+  "djokovic": {
+    "id": "djokovic",
+    "name": "Novak Djokovic",
+    "title": "Novak_Djokovic_Paris_2024_Olympic_Games_(cropped).jpg",
+    "author": "Andymiah",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Novak_Djokovic_Paris_2024_Olympic_Games_(cropped).jpg"
+  },
+  "haaland": {
+    "id": "haaland",
+    "name": "Erling Haaland",
+    "title": "Erling_Haaland_France_v_Norway_26_June_26-008.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_France_v_Norway_26_June_26-008.jpg"
+  },
+  "lewandowski": {
+    "id": "lewandowski",
+    "name": "Robert Lewandowski",
+    "title": "Robert_Lewandowski_2018,_JAP-POL_(cropped).jpg",
+    "author": "Светлана Бекетова",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Lewandowski_2018,_JAP-POL_(cropped).jpg"
+  },
+  "zlatan": {
+    "id": "zlatan",
+    "name": "Zlatan Ibrahimović",
+    "title": "Zlatan_Ibrahimović_June_2018.jpg",
+    "author": "Meghdad Madadi",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_June_2018.jpg"
+  },
+  "dua-lipa": {
+    "id": "dua-lipa",
+    "name": "Dua Lipa",
+    "title": "Dua_Lipa-69798_(cropped).jpg",
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dua_Lipa-69798_(cropped).jpg"
+  },
+  "rosalia": {
+    "id": "rosalia",
+    "name": "Rosalía",
+    "title": "2023-11-16_Gala_de_los_Latin_Grammy,_27_(cropped).jpg",
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_27_(cropped).jpg"
+  },
+  "ishowspeed": {
+    "id": "ishowspeed",
+    "name": "IShowSpeed",
+    "title": "IShowSpeed_at_Chinatown_(Portrait)_04.jpg",
+    "author": "Chin Yu Chu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IShowSpeed_at_Chinatown_(Portrait)_04.jpg"
+  },
+  "kai-cenat": {
+    "id": "kai-cenat",
+    "name": "Kai Cenat",
+    "title": "Kai_Cenat_July_2025.jpg",
+    "author": "ImDavisss Live",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kai_Cenat_July_2025.jpg"
+  },
+  "emma-watson": {
+    "id": "emma-watson",
+    "name": "Emma Watson",
+    "title": "Emma_Watson_ONU_2017.jpg",
+    "author": "ONU Brasil",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emma_Watson_ONU_2017.jpg"
+  },
+  "scarlett-johansson": {
+    "id": "scarlett-johansson",
+    "name": "Scarlett Johansson",
+    "title": "Scarlett_Johansson_293_(cropped2).jpg",
+    "author": "YantsImages",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson_293_(cropped2).jpg"
+  },
+  "jensen-huang": {
+    "id": "jensen-huang",
+    "name": "Jensen Huang",
+    "title": "Jen-Hsun_Huang_2025.jpg",
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg"
+  },
+  "jul": {
+    "id": "jul",
+    "name": "Jul",
+    "title": "JUL_-_Julien_Mari_2018.jpg",
+    "author": "Tigrouas135",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JUL_-_Julien_Mari_2018.jpg"
+  },
+  "orelsan": {
+    "id": "orelsan",
+    "name": "Orelsan",
+    "title": "Orelsan_au_Beauregard_Festival_2026.jpg",
+    "author": "8823frc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orelsan_au_Beauregard_Festival_2026.jpg"
+  },
+  "tibo-inshape": {
+    "id": "tibo-inshape",
+    "name": "Tibo InShape",
+    "title": "Tibo_InShape_en_2021.png",
+    "author": "Lucas Brasier",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibo_InShape_en_2021.png"
+  },
+  "amixem": {
+    "id": "amixem",
+    "name": "Amixem",
+    "title": "Amixem_en_janvier_2022_dans_2ack_en_Roue_Libre.png",
+    "author": "Zack Nani",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amixem_en_janvier_2022_dans_2ack_en_Roue_Libre.png"
+  },
+  "michou": {
+    "id": "michou",
+    "name": "Michou",
+    "title": "Michou_2023.jpg",
+    "author": "ZACK",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michou_2023.jpg"
+  },
+  "steve-jobs": {
+    "id": "steve-jobs",
+    "name": "Steve Jobs",
+    "title": "Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+    "author": "Matthew Yohe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg"
+  },
+  "einstein": {
+    "id": "einstein",
+    "name": "Albert Einstein",
+    "title": "Albert_Einstein_Head_cleaned.jpg",
+    "author": "Oren Jack Turner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+  },
+  "stephen-hawking": {
+    "id": "stephen-hawking",
+    "name": "Stephen Hawking",
+    "title": "Stephen_Hawking.StarChild.jpg",
+    "author": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg"
+  },
+  "marie-curie": {
+    "id": "marie-curie",
+    "name": "Marie Curie",
+    "title": "Marie_Curie_c1920.jpg",
+    "author": "Henri Manuel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c1920.jpg"
+  },
+  "schumacher": {
+    "id": "schumacher",
+    "name": "Michael Schumacher",
+    "title": "Michael_Schumacher,_September_2005.jpg",
+    "author": "Original : Aécio Neves – Wellington Pedro/Imprensa MG / Travail dérivé : F1fans, FMSky",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher,_September_2005.jpg"
+  },
+  "karl-lagerfeld": {
+    "id": "karl-lagerfeld",
+    "name": "Karl Lagerfeld",
+    "title": "Karl_Lagerfeld_2014.jpg",
+    "author": "Christopher William Adach",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karl_Lagerfeld_2014.jpg"
+  },
+  "kylie-jenner": {
+    "id": "kylie-jenner",
+    "name": "Kylie Jenner",
+    "title": "Guests_at_the_2026_Met_Gala_134_(Kylie_Jenner).jpg",
+    "author": "SWinxy",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_134_(Kylie_Jenner).jpg"
+  },
+  "pewdiepie": {
+    "id": "pewdiepie",
+    "name": "PewDiePie",
+    "title": "Pewdiepie_head_shot.jpg",
+    "author": "Cold Ones Clips",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pewdiepie_head_shot.jpg"
+  },
+  "ayrton-senna": {
+    "id": "ayrton-senna",
+    "name": "Ayrton Senna",
+    "title": "Ayrton_Senna_8_-_Cropped.jpg",
+    "author": "Instituto Ayrton Senna",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayrton_Senna_8_-_Cropped.jpg"
+  },
+  "feynman": {
+    "id": "feynman",
+    "name": "Richard Feynman",
+    "title": "RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg",
+    "author": "Copyright Tamiko Thiel 1984",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg"
+  },
+  "geoffrey-hinton": {
+    "id": "geoffrey-hinton",
+    "name": "Geoffrey Hinton",
+    "title": "Geoffrey_Hinton_in_2026.jpg",
+    "author": "Cmichel67",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg"
+  },
+  "yann-lecun": {
+    "id": "yann-lecun",
+    "name": "Yann LeCun",
+    "title": "Yann_LeCun_-_2025_(cropped).jpg",
+    "author": "Ecole polytechnique from Paris",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yann_LeCun_-_2025_(cropped).jpg"
+  },
+  "lex-fridman": {
+    "id": "lex-fridman",
+    "name": "Lex Fridman",
+    "title": "Lex_Fridman_teaching_at_MIT_in_2018.png",
+    "author": "lexfridman",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lex_Fridman_teaching_at_MIT_in_2018.png"
+  },
+  "tim-cook": {
+    "id": "tim-cook",
+    "name": "Tim Cook",
+    "title": "Visit_of_Tim_Cook_to_the_European_Commission_-_P061904-946789.jpg",
+    "author": "European Commission - Photographer: Christophe Licoppe",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Visit_of_Tim_Cook_to_the_European_Commission_-_P061904-946789.jpg"
+  },
+  "jack-ma": {
+    "id": "jack-ma",
+    "name": "Jack Ma",
+    "title": "Jack_Ma_Yun,_Tianjin,_2008_(cropped).jpg",
+    "author": "World Economic Forum",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Ma_Yun,_Tianjin,_2008_(cropped).jpg"
+  },
+  "christine-lagarde": {
+    "id": "christine-lagarde",
+    "name": "Christine Lagarde",
+    "title": "Lagarde_ECB_Portrait_2019.jpg",
+    "author": "Lemrich / European Central Bank",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lagarde_ECB_Portrait_2019.jpg"
+  },
+  "anthony-bourdain": {
+    "id": "anthony-bourdain",
+    "name": "Anthony Bourdain",
+    "title": "Anthony_Bourdain_2014_(cropped).jpg",
+    "author": "Peabody Awards",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anthony_Bourdain_2014_(cropped).jpg"
+  },
+  "xqc": {
+    "id": "xqc",
+    "name": "xQc",
+    "title": "XQc_July_4_2023.jpg",
+    "author": "Esfand",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:XQc_July_4_2023.jpg"
+  },
+  "emma-chamberlain": {
+    "id": "emma-chamberlain",
+    "name": "Emma Chamberlain",
+    "title": "Emma_Chamberlain_at_'21_Paris_Fashion_Week_(cropped).jpg",
+    "author": "Patou Cornette",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emma_Chamberlain_at_%2721_Paris_Fashion_Week_(cropped).jpg"
+  },
+  "chiara-ferragni": {
+    "id": "chiara-ferragni",
+    "name": "Chiara Ferragni",
+    "title": "Goyas_2025_-_Chiara_Ferragni_(cropped).jpg",
+    "author": "Pedro J Pacheco",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goyas_2025_-_Chiara_Ferragni_(cropped).jpg"
+  },
+  "jane-goodall": {
+    "id": "jane-goodall",
+    "name": "Jane Goodall",
+    "title": "Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department's_Global_Health_Diplomacy_Director_Jordan_in_Washington_(22365513310)_(2)_(cropped_2).jpg",
+    "author": "U.S. Department of State from United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_(22365513310)_(2)_(cropped_2).jpg"
+  },
+  "jamie-oliver": {
+    "id": "jamie-oliver",
+    "name": "Jamie Oliver",
+    "title": "Jamie_Oliver_retouched.jpg",
+    "author": "really short from NYC, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jamie_Oliver_retouched.jpg"
+  },
+  "martha-stewart": {
+    "id": "martha-stewart",
+    "name": "Martha Stewart",
+    "title": "Martha_Stewart_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martha_Stewart_by_Gage_Skidmore.jpg"
+  },
+  "steve-irwin": {
+    "id": "steve-irwin",
+    "name": "Steve Irwin",
+    "title": "Steve_Irwin_cropped.jpg",
+    "author": "Richard Giles, aka rich115",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steve_Irwin_cropped.jpg"
+  },
+  "anna-wintour": {
+    "id": "anna-wintour",
+    "name": "Anna Wintour",
+    "title": "AnnaWintour-byPhilipRomano2.jpg",
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AnnaWintour-byPhilipRomano2.jpg"
+  },
+  "gigi-hadid": {
+    "id": "gigi-hadid",
+    "name": "Gigi Hadid",
+    "title": "Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_(Gigi_Hadid).jpg",
+    "author": "Manuela Muniz Feijó Scarpa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_(Gigi_Hadid).jpg"
+  },
+  "naomi-campbell": {
+    "id": "naomi-campbell",
+    "name": "Naomi Campbell",
+    "title": "Naomi_Campbell_Cannes_2018.jpg",
+    "author": "Georges Biard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naomi_Campbell_Cannes_2018.jpg"
+  },
+  "kendall-jenner": {
+    "id": "kendall-jenner",
+    "name": "Kendall Jenner",
+    "title": "Kendall_Jenner_Venice_Film_Festival_2_(cropped).jpg",
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kendall_Jenner_Venice_Film_Festival_2_(cropped).jpg"
+  },
+  "jamy": {
+    "id": "jamy",
+    "name": "Jamy Gourmaud",
+    "title": "Jamy_gourmaud_LSlaP_101013.jpg",
+    "author": "G.Garitan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jamy_gourmaud_LSlaP_101013.jpg"
+  },
+  "hank-green": {
+    "id": "hank-green",
+    "name": "Hank Green",
+    "title": "Hank_Green_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hank_Green_by_Gage_Skidmore.jpg"
+  },
+  "dr-nozman": {
+    "id": "dr-nozman",
+    "name": "Dr Nozman",
+    "title": "Dr_Nozman_Geekopolis_2015.jpg",
+    "author": "Café des Sciences",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr_Nozman_Geekopolis_2015.jpg"
+  },
+  "addison-rae": {
+    "id": "addison-rae",
+    "name": "Addison Rae",
+    "title": "LanaWembley030725-16_(cropped_2).jpg",
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LanaWembley030725-16_(cropped_2).jpg"
+  },
+  "bella-poarch": {
+    "id": "bella-poarch",
+    "name": "Bella Poarch",
+    "title": "Bella_Poarch_-_Pink_Aura_Tour.jpg",
+    "author": "Angie Freems",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bella_Poarch_-_Pink_Aura_Tour.jpg"
+  },
+  "mukesh-ambani": {
+    "id": "mukesh-ambani",
+    "name": "Mukesh Ambani",
+    "title": "Mukesh_Ambani.jpg",
+    "author": "World Economic Forum from Cologny, Switzerland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mukesh_Ambani.jpg"
+  },
+  "anderson-cooper": {
+    "id": "anderson-cooper",
+    "name": "Anderson Cooper",
+    "title": "Anderson_Cooper_crop.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anderson_Cooper_crop.jpg"
+  },
+  "trevor-noah": {
+    "id": "trevor-noah",
+    "name": "Trevor Noah",
+    "title": "Trevor_Noah_(53554114243)_(portrait_crop).jpg",
+    "author": "Web Summit Qatar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trevor_Noah_(53554114243)_(portrait_crop).jpg"
+  },
+  "jean-pierre-pernaut": {
+    "id": "jean-pierre-pernaut",
+    "name": "Jean-Pierre Pernaut",
+    "title": "Jean-Pierre_Pernaut_(cropped).jpg",
+    "author": "Politiquemania",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jean-Pierre_Pernaut_(cropped).jpg"
+  },
+  "george-soros": {
+    "id": "george-soros",
+    "name": "George Soros",
+    "title": "George_Soros_-_May_31,_2017.jpg",
+    "author": "Aris Oikonomou - European Commission",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_Soros_-_May_31,_2017.jpg"
+  },
+  "ray-dalio": {
+    "id": "ray-dalio",
+    "name": "Ray Dalio",
+    "title": "Web_Summit_2018_-_Forum_-_Day_2,_November_7_HM1_7481_(44858045925).jpg",
+    "author": "Web Summit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Web_Summit_2018_-_Forum_-_Day_2,_November_7_HM1_7481_(44858045925).jpg"
+  },
+  "nas-daily": {
+    "id": "nas-daily",
+    "name": "Nas Daily",
+    "title": "NUSEIR_YASSIN_(Nas_Daily)_(cropped).jpg",
+    "author": "Lyn Averson, Mount Studio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NUSEIR_YASSIN_(Nas_Daily)_(cropped).jpg"
+  },
+  "rick-steves": {
+    "id": "rick-steves",
+    "name": "Rick Steves",
+    "title": "Rick_Steves_cropped.jpg",
+    "author": "CarlosManzanoPHOTOs",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rick_Steves_cropped.jpg"
+  },
+  "mike-horn": {
+    "id": "mike-horn",
+    "name": "Mike Horn",
+    "title": "DmitrySharomov20161208-4023.jpg",
+    "author": "Dmitry Sharomov",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DmitrySharomov20161208-4023.jpg"
+  },
+  "amouranth": {
+    "id": "amouranth",
+    "name": "Amouranth",
+    "title": "Amouranth_in_2022.jpg",
+    "author": "Esfand",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amouranth_in_2022.jpg"
+  },
+  "valkyrae": {
+    "id": "valkyrae",
+    "name": "Valkyrae",
+    "title": "Valkyrae_in_2023_(4x5_cropped).png",
+    "author": "Gymshark",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valkyrae_in_2023_(4x5_cropped).png"
+  },
+  "disguised-toast": {
+    "id": "disguised-toast",
+    "name": "Disguised Toast",
+    "title": "Disguised_Toast_2021.jpg",
+    "author": "Disguised Toast",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Disguised_Toast_2021.jpg"
+  },
+  "zoella": {
+    "id": "zoella",
+    "name": "Zoe Sugg",
+    "title": "Zoe_Sugg_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zoe_Sugg_by_Gage_Skidmore.jpg"
+  },
+  "enjoyphoenix": {
+    "id": "enjoyphoenix",
+    "name": "EnjoyPhoenix",
+    "title": "Marie_Lopez_(EnjoyPhoenix),_lors_du_ZEVENT_2025.jpg",
+    "author": "Mickaël Schauli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marie_Lopez_(EnjoyPhoenix),_lors_du_ZEVENT_2025.jpg"
+  },
+  "al-gore": {
+    "id": "al-gore",
+    "name": "Al Gore",
+    "title": "Al_Gore,_Vice_President_of_the_United_States,_official_portrait_1994.jpg",
+    "author": "Photographer inconnu(e)Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Gore,_Vice_President_of_the_United_States,_official_portrait_1994.jpg"
+  },
+  "yann-arthus-bertrand": {
+    "id": "yann-arthus-bertrand",
+    "name": "Yann Arthus-Bertrand",
+    "title": "Yann_Arthus-Bertrand,_2009_(cropped).jpg",
+    "author": "Olivier Ezratty",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yann_Arthus-Bertrand,_2009_(cropped).jpg"
+  },
+  "hugo-clement": {
+    "id": "hugo-clement",
+    "name": "Hugo Clément",
+    "title": "Hugo_Clément_2017.jpg",
+    "author": "Sebleouf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hugo_Cl%C3%A9ment_2017.jpg"
+  },
+  "michel-cymes": {
+    "id": "michel-cymes",
+    "name": "Michel Cymes",
+    "title": "Michel_Cymes_20100330_Salon_du_livre_de_Paris_1.jpg",
+    "author": "Georges Seguin (Okki)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michel_Cymes_20100330_Salon_du_livre_de_Paris_1.jpg"
+  },
+  "deepak-chopra": {
+    "id": "deepak-chopra",
+    "name": "Deepak Chopra",
+    "title": "Deepak_Chopra.jpg",
+    "author": "Mitchell Aidelbaum",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deepak_Chopra.jpg"
+  },
+  "anthony-fauci": {
+    "id": "anthony-fauci",
+    "name": "Anthony Fauci",
+    "title": "Anthony_Fauci_in_2023_02_(cropped).jpg",
+    "author": "Christopher Michel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anthony_Fauci_in_2023_02_(cropped).jpg"
+  },
+  "paul-bocuse": {
+    "id": "paul-bocuse",
+    "name": "Paul Bocuse",
+    "title": "Paul_Bocuse_2007_-2.jpg",
+    "author": "Alain Elorza",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_Bocuse_2007_-2.jpg"
+  },
+  "philippe-etchebest": {
+    "id": "philippe-etchebest",
+    "name": "Philippe Etchebest",
+    "title": "Philippe_Etchebest_in_2018.png",
+    "author": "Station Ausone",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philippe_Etchebest_in_2018.png"
+  },
+  "sebastien-loeb": {
+    "id": "sebastien-loeb",
+    "name": "Sébastien Loeb",
+    "title": "Dakar_2016_-_Conférence_de_presse_-_20151118_-_079.jpg",
+    "author": "Thesupermat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_079.jpg"
+  },
+  "joanna-gaines": {
+    "id": "joanna-gaines",
+    "name": "Joanna Gaines",
+    "title": "Joanna_Gaines_filming_Drew_Barrymore_Show_at_Magnolia.jpg",
+    "author": "Mily Fitzgerald",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joanna_Gaines_filming_Drew_Barrymore_Show_at_Magnolia.jpg"
+  },
+  "stephane-plaza": {
+    "id": "stephane-plaza",
+    "name": "Stéphane Plaza",
+    "title": "Stéphane_Plaza_en_2019.png",
+    "author": "VL.",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St%C3%A9phane_Plaza_en_2019.png"
+  },
+  "valerie-damidot": {
+    "id": "valerie-damidot",
+    "name": "Valérie Damidot",
+    "title": "Valérie_Damidot_salon_2010.jpg",
+    "author": "Georges Biard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Val%C3%A9rie_Damidot_salon_2010.jpg"
+  },
+  "cesar-millan": {
+    "id": "cesar-millan",
+    "name": "Cesar Millan",
+    "title": "Cesar_Millan_Mar_2018.png",
+    "author": "Valder Beebe Show",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cesar_Millan_Mar_2018.png"
+  },
+  "jack-hanna": {
+    "id": "jack-hanna",
+    "name": "Jack Hanna",
+    "title": "JackHannaByPhilKonstantin.jpg",
+    "author": "Philkon Phil Konstantin",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JackHannaByPhilKonstantin.jpg"
+  },
+  "bindi-irwin": {
+    "id": "bindi-irwin",
+    "name": "Bindi Irwin",
+    "title": "Bindi_Irwin_in_June_2013.jpg",
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bindi_Irwin_in_June_2013.jpg"
+  },
+  "kourtney-kardashian": {
+    "id": "kourtney-kardashian",
+    "name": "Kourtney Kardashian",
+    "title": "Kourtney_Kardashian_for_GQ_-_4.jpg",
+    "author": "Britt Bellamy",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kourtney_Kardashian_for_GQ_-_4.jpg"
+  },
+  "khloe-kardashian": {
+    "id": "khloe-kardashian",
+    "name": "Khloé Kardashian",
+    "title": "Khloe_Kardashian_Glamour.png",
+    "author": "https://www.instagram.com/p/Ctj6pT8vH1A/?igshid=MzRlODBiNWFlZA==",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khloe_Kardashian_Glamour.png"
+  },
+  "caitlyn-jenner": {
+    "id": "caitlyn-jenner",
+    "name": "Caitlyn Jenner",
+    "title": "Caitlyn_Jenner.jpeg",
+    "author": "US Mission to the UN",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caitlyn_Jenner.jpeg"
+  },
+  "jillian-michaels": {
+    "id": "jillian-michaels",
+    "name": "Jillian Michaels",
+    "title": "Jillian_Michaels_by_Gage_Skidmore.jpg",
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jillian_Michaels_by_Gage_Skidmore.jpg"
+  },
+  "demis-hassabis": {
+    "id": "demis-hassabis",
+    "name": "Demis Hassabis",
+    "title": "Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg",
+    "author": "John Sears",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg"
+  },
+  "hugo-decrypte": {
+    "id": "hugo-decrypte",
+    "name": "HugoDécrypte",
+    "title": "Hugo_Travers_2022.png",
+    "author": "Julien Potié",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hugo_Travers_2022.png"
+  },
+  "tobias-lutke": {
+    "id": "tobias-lutke",
+    "name": "Tobias Lütke",
+    "title": "Tobias_Lütke,_Shopify.jpg",
+    "author": "Union Eleven",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tobias_L%C3%BCtke,_Shopify.jpg"
+  },
+  "newton": {
+    "id": "newton",
+    "name": "Isaac Newton",
+    "title": "GodfreyKneller-IsaacNewton-1689.jpg",
+    "author": "Godfrey Kneller",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg"
+  },
+  "coco-chanel": {
+    "id": "coco-chanel",
+    "name": "Coco Chanel",
+    "title": "Coco_Chanel_in_Los_Angeles,_1931_(cropped).jpg",
+    "author": "Los Angeles Times",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coco_Chanel_in_Los_Angeles,_1931_(cropped).jpg"
+  },
+  "paris-hilton": {
+    "id": "paris-hilton",
+    "name": "Paris Hilton",
+    "title": "Paris_Hilton_at_WWD_Style_Awards_2026.jpg",
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Hilton_at_WWD_Style_Awards_2026.jpg"
+  },
+  "darwin": {
+    "id": "darwin",
+    "name": "Charles Darwin",
+    "title": "Charles_Darwin_portrait.jpg",
+    "author": "Herbert Rose Barraud",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_portrait.jpg"
+  },
+  "tesla": {
+    "id": "tesla",
+    "name": "Nikola Tesla",
+    "title": "Tesla_circa_1890.jpeg",
+    "author": "Napoleon Sarony",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
+  },
+  "valentino-rossi": {
+    "id": "valentino-rossi",
+    "name": "Valentino Rossi",
+    "title": "Valentino_Rossi_2024_WEC_Fuji_2.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valentino_Rossi_2024_WEC_Fuji_2.jpg"
+  },
+  "grumpy-cat": {
+    "id": "grumpy-cat",
+    "name": "Grumpy Cat",
+    "title": "Grumpy_Cat_(14556024763)_(cropped).jpg",
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grumpy_Cat_(14556024763)_(cropped).jpg"
+  },
+  "kate-moss": {
+    "id": "kate-moss",
+    "name": "Kate Moss",
+    "title": "11_-_Kate_Moss-001_(16510685424).jpg",
+    "author": "Renan Katayama",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:11_-_Kate_Moss-001_(16510685424).jpg"
+  },
+  "cousteau": {
+    "id": "cousteau",
+    "name": "Jacques-Yves Cousteau",
+    "title": "Cousteau1972_(cropped).jpg",
+    "author": "Hans Peters for Anefo .",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cousteau1972_(cropped).jpg"
+  },
+  "hachiko": {
+    "id": "hachiko",
+    "name": "Hachikō",
+    "title": "Faithful_Dog_Hachiko_Photo.png",
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Faithful_Dog_Hachiko_Photo.png"
+  },
+  "alain-prost": {
+    "id": "alain-prost",
+    "name": "Alain Prost",
+    "title": "Festival_automobile_international_2012_-_Photocall_-_Alain_Prost_-_013.jpg",
+    "author": "Thesupermat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Festival_automobile_international_2012_-_Photocall_-_Alain_Prost_-_013.jpg"
+  },
+  "julia-child": {
+    "id": "julia-child",
+    "name": "Julia Child",
+    "title": "Julia_Child_restore.jpg",
+    "author": "Elsa Dorfman",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Julia_Child_restore.jpg"
+  },
+  "robuchon": {
+    "id": "robuchon",
+    "name": "Joël Robuchon",
+    "title": "Joël_Robuchon.jpg",
+    "author": "Ohconfucius",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jo%C3%ABl_Robuchon.jpg"
+  },
+  "jim-henson": {
+    "id": "jim-henson",
+    "name": "Jim Henson",
+    "title": "Jim_Henson_(1989).jpg",
+    "author": "Alan Light",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_Henson_(1989).jpg"
+  },
+  "fred-rogers": {
+    "id": "fred-rogers",
+    "name": "Fred Rogers",
+    "title": "Fred_Rogers,_late_1960s.jpg",
+    "author": "KUHT",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fred_Rogers,_late_1960s.jpg"
+  },
+  "dr-oz": {
+    "id": "dr-oz",
+    "name": "Mehmet Oz",
+    "title": "CMS_Admin_Dr_Mehmet_Oz.png",
+    "author": "United States Centers for Medicare and Medicaid",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CMS_Admin_Dr_Mehmet_Oz.png"
+  },
+  "casey-neistat": {
+    "id": "casey-neistat",
+    "name": "Casey Neistat",
+    "title": "Casey_Neistat_@_SXSW_2017_(33229303282)_(cropped).jpg",
+    "author": "nrkbeta",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casey_Neistat_@_SXSW_2017_(33229303282)_(cropped).jpg"
+  },
+  "ibai": {
+    "id": "ibai",
+    "name": "Ibai Llanos",
+    "title": "Ibai_Llanos_(2024)1.jpg",
+    "author": "Movistar KOI VODS",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ibai_Llanos_(2024)1.jpg"
+  },
+  "philippe-starck": {
+    "id": "philippe-starck",
+    "name": "Philippe Starck",
+    "title": "Phillippe_Starck_2011.jpg",
+    "author": "jikatu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phillippe_Starck_2011.jpg"
+  },
+  "alonso": {
+    "id": "alonso",
+    "name": "Fernando Alonso",
+    "title": "Alonso_2016.jpg",
+    "author": "Box Repsol | Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alonso_2016.jpg"
+  },
+  "carl-sagan": {
+    "id": "carl-sagan",
+    "name": "Carl Sagan",
+    "title": "Carl_Sagan_Planetary_Society.JPG",
+    "author": "NASA/JPL",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carl_Sagan_Planetary_Society.JPG"
+  },
+  "dolly": {
+    "id": "dolly",
+    "name": "Dolly la brebis",
+    "title": "Dolly_face_closeup.jpg",
+    "author": "Toni Barros from São Paulo, Brasil",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolly_face_closeup.jpg"
+  },
+  "giorgio-armani": {
+    "id": "giorgio-armani",
+    "name": "Giorgio Armani",
+    "title": "GiorgioArmani.jpg",
+    "author": "Jan Schroeder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GiorgioArmani.jpg"
+  },
+  "donatella-versace": {
+    "id": "donatella-versace",
+    "name": "Donatella Versace",
+    "title": "Donatella_Versace_Time_Shankbone_2010.jpg",
+    "author": "David Shankbone",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Donatella_Versace_Time_Shankbone_2010.jpg"
+  },
+  "kabosu": {
+    "id": "kabosu",
+    "name": "Kabosu",
+    "title": "Kabosu_and_Atsuko_Sato_2023-11-02_(1).jpg",
+    "author": "Asanagi",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kabosu_and_Atsuko_Sato_2023-11-02_(1).jpg"
+  },
+  "leclerc": {
+    "id": "leclerc",
+    "name": "Charles Leclerc",
+    "title": "Charles_Leclerc_at_the_2026_Cannes_Film_Festival_(cropped).jpg",
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charles_Leclerc_at_the_2026_Cannes_Film_Festival_(cropped).jpg"
+  },
+  "jeremy-clarkson": {
+    "id": "jeremy-clarkson",
+    "name": "Jeremy Clarkson",
+    "title": "Jeremy_Clarkson,_Top_Gear_Live_2012_(cropped).jpg",
+    "author": "Petr Magera",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeremy_Clarkson,_Top_Gear_Live_2012_(cropped).jpg"
+  },
+  "virgil-abloh": {
+    "id": "virgil-abloh",
+    "name": "Virgil Abloh",
+    "title": "Virgil_Abloh_Paris_Fashion_Week_Autumn_Winter_2019_(cropped).jpg",
+    "author": "Myles Kalus Anak Jihem",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virgil_Abloh_Paris_Fashion_Week_Autumn_Winter_2019_(cropped).jpg"
+  },
+  "thomas-pesquet": {
+    "id": "thomas-pesquet",
+    "name": "Thomas Pesquet",
+    "title": "Thomas_Pesquet,_official_portrait_in_EMU_(2020)_cropped.jpg",
+    "author": "Josh Valcarcel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Pesquet,_official_portrait_in_EMU_(2020)_cropped.jpg"
+  },
+  "salt-bae": {
+    "id": "salt-bae",
+    "name": "Salt Bae",
+    "title": "Salt_Bae.png",
+    "author": "Terron F.Beckham",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salt_Bae.png"
+  },
+  "nigella-lawson": {
+    "id": "nigella-lawson",
+    "name": "Nigella Lawson",
+    "title": "Nigella2.jpg",
+    "author": "Brian Minkoff- London Pixels",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nigella2.jpg"
+  },
+  "jojo-siwa": {
+    "id": "jojo-siwa",
+    "name": "JoJo Siwa",
+    "title": "JoJo_Siwa_2.jpg",
+    "author": "JoJo Siwa",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JoJo_Siwa_2.jpg"
+  },
+  "like-nastya": {
+    "id": "like-nastya",
+    "name": "Like Nastya",
+    "title": "Anastasia_Radzinskaya.png",
+    "author": "Like Nastya",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anastasia_Radzinskaya.png"
+  },
+  "moo-deng": {
+    "id": "moo-deng",
+    "name": "Moo Deng",
+    "title": "Moo_deng_หมูเด้ง_(2024-09-11)_-_img_02.jpg",
+    "author": "MGR ภาคกลาง ตะวันออก / MGR Online VDO",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moo_deng_%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87_(2024-09-11)_-_img_02.jpg"
+  },
+  "shroud": {
+    "id": "shroud",
+    "name": "Shroud",
+    "title": "Shroud_cropped.jpg",
+    "author": "Nate Herrera n8bit_",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shroud_cropped.jpg"
+  },
+  "hasan-piker": {
+    "id": "hasan-piker",
+    "name": "Hasan Piker",
+    "title": "HasanStLouis-20260501-234558761_(cropped).jpg",
+    "author": "Poisonwithahawkseye",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HasanStLouis-20260501-234558761_(cropped).jpg"
+  },
+  "huda-kattan": {
+    "id": "huda-kattan",
+    "name": "Huda Kattan",
+    "title": "HudaKattan.jpg",
+    "author": "Susan Alpin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HudaKattan.jpg"
+  },
+  "nikkie-tutorials": {
+    "id": "nikkie-tutorials",
+    "name": "NikkieTutorials",
+    "title": "NikkiedeJager2020-2.jpg",
+    "author": "&amp;C",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NikkiedeJager2020-2.jpg"
+  },
+  "nabilla": {
+    "id": "nabilla",
+    "name": "Nabilla",
+    "title": "Nabilla-2023.jpg",
+    "author": "Gilzetbase",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nabilla-2023.jpg"
+  },
+  "richard-simmons": {
+    "id": "richard-simmons",
+    "name": "Richard Simmons",
+    "title": "Richard_Simmons_1998.jpg",
+    "author": "John Mathew Smith &amp; www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richard_Simmons_1998.jpg"
+  },
+  "wim-hof": {
+    "id": "wim-hof",
+    "name": "Wim Hof",
+    "title": "2019_Wim_Hof_-_by_2eight_-_DSC6933.jpg",
+    "author": "Stefan Brending (2eight)",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019_Wim_Hof_-_by_2eight_-_DSC6933.jpg"
+  },
+  "nicolas-hulot": {
+    "id": "nicolas-hulot",
+    "name": "Nicolas Hulot",
+    "title": "Nicolas_Hulot_2015_(cropped).jpg",
+    "author": "COP PARIS",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicolas_Hulot_2015_(cropped).jpg"
+  },
+  "wangari-maathai": {
+    "id": "wangari-maathai",
+    "name": "Wangari Maathai",
+    "title": "Wangari_Matthai_2001_(cropped).jpg",
+    "author": "Kingkongphoto &amp; www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wangari_Matthai_2001_(cropped).jpg"
+  },
+  "boyan-slat": {
+    "id": "boyan-slat",
+    "name": "Boyan Slat",
+    "title": "Boyan_Slat_(2018).jpg",
+    "author": "DWDD",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boyan_Slat_(2018).jpg"
+  },
+  "jancovici": {
+    "id": "jancovici",
+    "name": "Jean-Marc Jancovici",
+    "title": "6HB2WD96ByQ-HD.jpg",
+    "author": "ThinkerView",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:6HB2WD96ByQ-HD.jpg"
+  },
+  "thierry-marx": {
+    "id": "thierry-marx",
+    "name": "Thierry Marx",
+    "title": "Thierry_Marx.jpg",
+    "author": "MEDEF",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thierry_Marx.jpg"
+  },
+  "boris-cyrulnik": {
+    "id": "boris-cyrulnik",
+    "name": "Boris Cyrulnik",
+    "title": "Boris_Cyrulnik_-_2011-11-01_-_cropped.jpg",
+    "author": "Festival della sScienza",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boris_Cyrulnik_-_2011-11-01_-_cropped.jpg"
+  },
+  "juju-fitcats": {
+    "id": "juju-fitcats",
+    "name": "Juju Fitcats",
+    "title": "Photo_Jujufitcats.jpg",
+    "author": "AdamTush",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photo_Jujufitcats.jpg"
+  },
+  "ty-pennington": {
+    "id": "ty-pennington",
+    "name": "Ty Pennington",
+    "title": "Ty_Pennington_USAF.jpg",
+    "author": "U.S. Air Force photo/Master Sgt. Tommie Baker",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ty_Pennington_USAF.jpg"
+  },
+  "chip-gaines": {
+    "id": "chip-gaines",
+    "name": "Chip Gaines",
+    "title": "Chip_Gaines_filming_Drew_Barrymore_Show_at_Magnolia.jpg",
+    "author": "Mily Fitzgerald",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chip_Gaines_filming_Drew_Barrymore_Show_at_Magnolia.jpg"
+  },
+  "monty-don": {
+    "id": "monty-don",
+    "name": "Monty Don",
+    "title": "Monty_Don_at_the_Chelsea_Flower_Show_(cropped).jpg",
+    "author": "Mark",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monty_Don_at_the_Chelsea_Flower_Show_(cropped).jpg"
+  },
+  "andree-putman": {
+    "id": "andree-putman",
+    "name": "Andrée Putman",
+    "title": "Andrée_Putman_in_black_and_white.jpg",
+    "author": "Putman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9e_Putman_in_black_and_white.jpg"
+  },
+  "zerator": {
+    "id": "zerator",
+    "name": "ZeratoR",
+    "title": "ZeratoR,_lors_du_ZEVENT_2025.jpg",
+    "author": "Mickaël Schauli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZeratoR,_lors_du_ZEVENT_2025.jpg"
+  },
+  "kameto": {
+    "id": "kameto",
+    "name": "Kameto",
+    "title": "Kameto_ZERL.jpg",
+    "author": "Zack Nani",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kameto_ZERL.jpg"
+  },
+  "dorothee": {
+    "id": "dorothee",
+    "name": "Dorothée",
+    "title": "Dorothee_20080318_Salon_du_livre_6.jpg",
+    "author": "Georges Seguin (Okki)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorothee_20080318_Salon_du_livre_6.jpg"
+  }
+}

@@ -1,0 +1,9 @@
+Images de la chambre de hacker (onglet Cyber).
+- tung.jpg : affiche au-dessus du lit (« Tung Tung Tung Sahur » dans la galaxie).
+- couette.jpg : housse de couette et taies d'oreiller du lit.
+Les joueurs peuvent choisir une autre affiche en touchant l'affiche (liste dans src/render/hacker-room-3d.ts : POSTERS),
+ou mettre une image de leur appareil (gardée dans leur navigateur, visible par eux seuls).
+
+Droits : tung.jpg et couette.jpg sont découpées dans les photos d'un produit vendu sur Amazon
+(housse de couette « Italian Brainrot Tung Tung Tung Sahur », amazon.es B0FCG64T65) : NON libres.
+À remplacer avant une sortie publique.
