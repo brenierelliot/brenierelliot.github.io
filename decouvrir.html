@@ -15,14 +15,14 @@
 <meta property="og:url" content="https://brenierelliot.github.io/decouvrir.html">
 <meta property="og:title" content="Steal Internet · Internet est une ville, vole-la">
 <meta property="og:description" content="1 000 vrais sites web en immeubles 3D. Achète, encaisse, vole aux enchères. Gratuit, sur téléphone et ordinateur.">
-<meta property="og:image" content="https://brenierelliot.github.io/decouvrir/partage.jpg">
+<meta property="og:image" content="https://brenierelliot.github.io/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="La ville de Steal Internet de nuit : des immeubles portant les logos de vrais sites web.">
+<meta property="og:image:alt" content="Steal Internet : la ville de nuit, avec les logos de Google, YouTube, Netflix, TikTok et Wikipédia.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Steal Internet · Internet est une ville, vole-la">
 <meta name="twitter:description" content="1 000 vrais sites web en immeubles 3D. Achète, encaisse, vole aux enchères. Gratuit, dans le navigateur.">
-<meta name="twitter:image" content="https://brenierelliot.github.io/decouvrir/partage.jpg">
+<meta name="twitter:image" content="https://brenierelliot.github.io/og.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -367,5 +367,19 @@
     </nav>
   </div>
 </footer>
+<script>
+  // lien d'invitation (?ref=CODE) : on garde le code de l'ami pour la création du compte,
+  // et on le passe aux boutons « Jouer »
+  (function () {
+    var code = (new URLSearchParams(location.search).get('ref') || '').trim().toUpperCase();
+    if (!/^[A-HJ-NP-Z2-9]{6}$/.test(code)) return;
+    try { localStorage.setItem('vole-internet:ref', code); } catch (e) {}
+    document.querySelectorAll('a[href^="/?"]').forEach(function (a) {
+      var u = new URL(a.getAttribute('href'), location.origin);
+      u.searchParams.set('ref', code);
+      a.setAttribute('href', u.pathname + u.search);
+    });
+  })();
+</script>
 </body>
 </html>
