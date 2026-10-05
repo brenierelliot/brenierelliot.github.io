@@ -8,8 +8,10 @@ self.addEventListener('install', () => self.skipWaiting());
 // Les fichiers lourds (modèles 3D, logos, textures, photos, sons, code) sont gardés sur l'appareil après
 // la première visite. Le code (/assets/) a un nom qui change à chaque version : jamais de vieux code.
 // La page elle-même passe toujours par le réseau d'abord (nouvelle version tout de suite).
-const CACHE = 'steal-internet-v1';
-const CACHED = /^\/(assets|models|logos|textures|celebs|sons|stickers|icons|avatars|posters|crew-emblems|decouvrir)\//;
+const CACHE = 'steal-internet-v3';
+// chemins relatifs au dossier du jeu (« / » en ligne, « /test/ » pour le lien de test)
+const SCOPE = new URL(self.registration.scope).pathname;
+const CACHED = /^(assets|models|logos|textures|celebs|sons|stickers|icons|avatars|posters|crew-emblems|decouvrir)\//;
 
 self.addEventListener('activate', (event) =>
   event.waitUntil(
@@ -24,7 +26,9 @@ self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
-  if (url.origin !== self.location.origin || !CACHED.test(url.pathname) || req.headers.has('range')) return;
+  if (url.origin !== self.location.origin || !url.pathname.startsWith(SCOPE) || req.headers.has('range')) return;
+  const path = url.pathname.slice(SCOPE.length);
+  if (!CACHED.test(path)) return;
   event.respondWith(
     (async () => {
       const cache = await caches.open(CACHE);
@@ -35,7 +39,7 @@ self.addEventListener('fetch', (event) => {
       });
       if (hit) {
         // code versionné : jamais modifié, inutile de revérifier ; le reste se met à jour en arrière-plan
-        if (!url.pathname.startsWith('/assets/')) event.waitUntil(refresh.catch(() => {}));
+        if (!path.startsWith('assets/')) event.waitUntil(refresh.catch(() => {}));
         return hit;
       }
       return refresh;
@@ -50,7 +54,7 @@ self.addEventListener('push', (event) => {
       try {
         const sub = await self.registration.pushManager.getSubscription();
         if (sub) {
-          const res = await fetch(`/push/pending?e=${encodeURIComponent(sub.endpoint)}`, { cache: 'no-store' });
+          const res = await fetch(`${SCOPE}push/pending?e=${encodeURIComponent(sub.endpoint)}`, { cache: 'no-store' });
           if (res.ok) items = await res.json();
         }
       } catch {
@@ -71,7 +75,7 @@ self.addEventListener('push', (event) => {
         body: last.body || '',
         tag: 'steal-internet',
         renotify: true,
-        data: { url: '/' },
+        data: { url: SCOPE },
       });
     })(),
   );
@@ -85,7 +89,7 @@ self.addEventListener('notificationclick', (event) => {
       for (const c of all) {
         if ('focus' in c) return c.focus();
       }
-      if (self.clients.openWindow) return self.clients.openWindow(event.notification.data?.url || '/');
+      if (self.clients.openWindow) return self.clients.openWindow(event.notification.data?.url || SCOPE);
     })(),
   );
 });

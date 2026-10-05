@@ -14,7 +14,7 @@
         "stealsnd:laugh"
       ],
       "original": {
-        "fichier": "rire.wav",
+        "fichier": "rire.m4a",
         "volume": 0.18,
         "droits": "Extrait fourni par l'éditeur, auteur non identifié : NON libre"
       }
@@ -25,7 +25,7 @@
         "stealsnd:enrique"
       ],
       "original": {
-        "fichier": "enrique.wav",
+        "fichier": "enrique.m4a",
         "volume": 0.42,
         "droits": "Son mème (Short YouTube « Enrique Sound Effect ») : NON libre"
       }
@@ -36,7 +36,7 @@
         "stealsnd:boom"
       ],
       "original": {
-        "fichier": "boom.mp3",
+        "fichier": "boom.m4a",
         "volume": 0.77,
         "droits": "Son mème « Boom God damn » : NON libre"
       }
@@ -47,7 +47,7 @@
         "stealsnd:shutup"
       ],
       "original": {
-        "fichier": "shutup.mp3",
+        "fichier": "shutup.m4a",
         "volume": 0.37,
         "droits": "Son mème « Shut Your F*cking Mouth » : NON libre"
       }
@@ -58,7 +58,7 @@
         "music:sahur"
       ],
       "original": {
-        "fichier": "sinking-sahur.mp3",
+        "fichier": "sinking-sahur.m4a",
         "volume": 0.45,
         "droits": "Morceau « Sinking Sahur (Sad Guitar Version) » : NON libre"
       }
@@ -69,7 +69,7 @@
         "music:hotmilk"
       ],
       "original": {
-        "fichier": "hot-milk.mp3",
+        "fichier": "hot-milk.m4a",
         "volume": 0.24,
         "droits": "Snail's House, « Hot Milk » (Bass Boosted) : NON libre"
       }
@@ -80,7 +80,7 @@
         "music:biban"
       ],
       "original": {
-        "fichier": "biban.mp3",
+        "fichier": "biban.m4a",
         "volume": 0.4,
         "droits": "Jeanfils, « BIBAN » (clip officiel) : NON libre"
       }
@@ -91,7 +91,7 @@
         "music:gutgenug"
       ],
       "original": {
-        "fichier": "gut-genug.mp3",
+        "fichier": "gut-genug.m4a",
         "volume": 0.25,
         "droits": "Kitschkrieg, « Gut Genug » (Slowed & Reverb) : NON libre"
       }
@@ -102,7 +102,7 @@
         "music:freestyle"
       ],
       "original": {
-        "fichier": "freestyle.mp3",
+        "fichier": "freestyle.m4a",
         "volume": 0.55,
         "droits": "Freestyle rap trouvé en ligne (fourni par le créateur du jeu) : droits à vérifier"
       }
@@ -113,7 +113,7 @@
         "stealsnd:getout"
       ],
       "original": {
-        "fichier": "getout.mp3",
+        "fichier": "getout.m4a",
         "volume": 0.4,
         "droits": "Son mème « GET OUT » (fourni par le créateur du jeu) : droits à vérifier"
       }
@@ -124,7 +124,7 @@
         "stealsnd:hahanice"
       ],
       "original": {
-        "fichier": "hahanice.mp3",
+        "fichier": "hahanice.m4a",
         "volume": 0.4,
         "droits": "Son mème TikTok « Haha Nice » (fourni par le créateur du jeu) : droits à vérifier"
       }

@@ -3,13 +3,13 @@
   "short_name": "Steal Internet",
   "description": "Internet est une ville 3D : achète, vole et défends les vrais sites web.",
   "lang": "fr",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#151a2c",
   "theme_color": "#151a2c",
   "icons": [
-    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
   ]
 }
