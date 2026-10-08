@@ -1,0 +1,1 @@
+var e={savoir:`book`,reseaux:`users`,video:`play`,ia:`sparkle`,tech:`code`,shopping:`cart`,jeux:`gamepad`,musique:`music`,actu:`news`,finance:`coin`,voyage:`plane`,sport:`ball`,forums:`forum`,vie:`flag`,environnement:`leaf`,sante:`health`,cuisine:`chef`,mode:`tag`,auto:`car`,maison:`home`,animaux:`paw`,sciences:`atom`,culture:`image`,famille:`users`};export{e as t};
