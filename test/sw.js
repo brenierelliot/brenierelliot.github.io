@@ -8,7 +8,7 @@ self.addEventListener('install', () => self.skipWaiting());
 // Les fichiers lourds (modèles 3D, logos, textures, photos, sons, code) sont gardés sur l'appareil après
 // la première visite. Le code (/assets/) a un nom qui change à chaque version : jamais de vieux code.
 // La page elle-même passe toujours par le réseau d'abord (nouvelle version tout de suite).
-const CACHE = 'steal-internet-v8';
+const CACHE = 'steal-internet-v9';
 // chemins relatifs au dossier du jeu (« / » en ligne, « /test/ » pour le lien de test)
 const SCOPE = new URL(self.registration.scope).pathname;
 const CACHED = /^(assets|models|basis|logos|textures|celebs|sons|stickers|icons|avatars|posters|crew-emblems|decouvrir)\//;
